@@ -7,6 +7,6 @@ Convert segmentation created by labelme format to Yolo Segmentation format
 
 ![image](https://user-images.githubusercontent.com/79894531/214529172-15b51a6c-769f-4caf-be8c-6595739ad966.png)
 
-obj.names example
+## obj.names example  
 ![image](https://user-images.githubusercontent.com/79894531/214529306-1eaa410e-9804-4030-a67d-40a4a4e4ce52.png)
 
