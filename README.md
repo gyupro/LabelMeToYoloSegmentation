@@ -1,6 +1,12 @@
 # LabelMeToYoloSegmentation
 Convert labelme format to yolo segmentation format
 
+Usage
+
+```bash
+python script_name.py --input /path/to/input.json --output /path/to/output.txt
+```
+
 Convert segmentation created by labelme format to Yolo Segmentation format
 
 ![image](https://user-images.githubusercontent.com/79894531/214529150-ca61e5f5-6336-4546-bbf9-8f576c4232a5.png)
