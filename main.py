@@ -21,7 +21,9 @@ def convert(file, txt_name=None):
         txt_name = file.rstrip(".json") + ".txt"
 
     names = read_name_file('obj.names')
-
+    with open(file, 'r') as f:
+        Image.fromarray(img_b64_to_arr(json.loads(f.read())['imageData'])).save(txt_name.replace('txt', 'png'))
+    
     with open(file, "r") as txt_file:
         js = json.loads(txt_file.read())
 
