@@ -1,10 +1,20 @@
 # LabelMeToYoloSegmentation
 Convert labelme format to yolo segmentation format
 
+Now, you can convert back yolo segmentation format to labelme format
+
 Usage
 
+### labelme2yolo
 ```bash
-python main.py --input /path/to/input.json --output /path/to/output.txt
+python labelme2yolo.py --input /path/to/input.json --output /path/to/output.txt
+```
+
+### yolo2labelme
+You need create obj.names file that defines your cls 
+
+```bash
+python yolo2labelme.py --input /path/to/input.txt --image /path/to/image.jpg --output /path/to/output.json
 ```
 
 Convert segmentation created by labelme format to Yolo Segmentation format
